@@ -9,8 +9,67 @@ Python basics (background for exam prep)
 - for program to work as expected and designed, needs correct commands / alphabet, correct lexix / dictionary, correct syntax, and correct seamtnically
 - when ready for use, program needs to be rednered into machin elanguage
 - two main methods to convert from hig-level programming language into machin elanguage - compilation and interpretation
+- compilation is translated / compiled once, to create the file that can be executed (the machine code file)
+- interpretation, the translation happens each time the code is run , so the prgram code always needs an interpreter for it to run. eh directly sharing just the code will not work in the absence of a suitable interpreter.
+- an interpreter translates source text file code by reading top to bottom and left to right, the interpretor also checks the code to see if it is functional before it is executed, (read-check-execute), the interpretor thows an error if the code cannot be executed (if fails any checks)
+- note that the interpreter can move through large amounts of the code befor eit may find an error and stop the execution, eg its begisn the process then stops, rather than fully chekcing everyting first
+- different pros and cons for each type of programming language
+- compilation - pros = executes fast, does not need the compiler to be shipped with the code, quite a secure and read protected method, eg difficult to view and read the code if people wanted to (as it is just in machine code)
+- compilation - cons = can be slow to compile and therefore difficut to do quick code - test fedback loops, may need multiple compilers to fit a rang eof user hardware
+- interpreted - pros = quick to just run and test code straigth away - quick feedback loops, code storage is via text files of progamming language code, not machine code, the code is converted later at poin tof use, so is more adaptive to whatever run environment or hardware it is being run on
+- interpreted - cons = code can be slow, as resources are shared with the interpreter when it is used, both developers and end users need access to an appropriate interpreter,
+- python = interpreted language, therefore to run a python program, need access to installed python interpreter, 
+- often interpreted languages refered to as scriptin glanguages, with text files being "scripts"
+- dev by Guido van Rossum, netherlands
+- Stated goals for the developement of python include: easy, intuitive, but powerful, open source, understandable code (c.f. plain english), small task suitable, short dev times. 
+- Several features of python make it popular:  considered easy to learn and use, favoured for teaching, free, understanable, 
+- most similar languages: perl, ruby
+
+- ongoing evolution
+- python 3 is now current and is essentially a different, updated language compared to python3, although much in terms of use is similar
+- important to note there are many different flavours of python
+- python software foundation releases the main reference python versions (CPython, note, !=, c.f. Cython!)
+- these key releases are written in C. 
+- note benefit of C origin is portability, due to ubiquity of C
+- Cython - this automatically converts python code to C code, therefore it speeds up the analysis / calculations
+- jython - this acts as a link between java and python
+- pypy - is a fast, compliant implementation of python, its main advantage is speed. it is built with RPython (can be considered as a toolfor python developers, i.e. developers of python, than users)
+
+terminology
+
+- traceback - shows the route the code takes and locations where errors or issues occur, 
+- erors have specific names, due to types
+- function = sectionof code that causes an effect, or undertakes evaluation, gives a result (python has many "built-in" functions, but also can be witten or imported
+- python function takes one, o rmany arguments function(argument1, argument2)
+- function invocation - 
+
+
+rules / process / reminders
+
+- only one instruction per line of code
+- \ backslash as an escape character
+- positional - the meaning of an argument is determined by its position
+- keyword arguments - the meaning / selection of the argument is shown by the keyword
+- keyword arguments are always placed AFTER the last positional argument
 - 
--
--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
