@@ -54,7 +54,87 @@ rules / process / reminders
 - 
 
 
+literals
+- data added as a constant or a variables = several types of "literals"
+- you can literaly tell what it is by examining the data
+- literals are defined by the type of datsa they hold
+- literals are used to encode data
+- literals relate to data type, and how these are stored in memory
+- note decimal, octal, hexidecimal integers
+- octal is base8
+- decimal is base10
+- hexadecimal is base 16
+- floats , floating point have non-empty decimal fraction
+- scientific notation is supported
+- python uses the most economical representation for numbers that is available 
+- e.g. python choose scientific notation for long or complex numnbers, where relevant
 
+rules
+- recall that hierarchy of priorities applies
+- operation of higher priority are performed first and passed to lower priority operations
+- left sided binding normally applied where priorities are otherwise equal
+- important - the exponentiation operator uses right-sided binding (righ associative)
+- BODMAS
+- Brackets (inside brackets first).
+- Orders (powers or square roots).
+- Division.
+- Multiplication.
+- Addition.
+- Subtraction
+- note, any parts of expressions - in parenthese are calculated first
+- python ordering
+- high to low ...
+- +- unary
+- ** 
+- * / %
+- + - binary
+- < <=>>> >=
+- ==  !=
+
+
+variables
+- a container, where the contents can be varied
+- name and value
+- name must not clash with builtin researved keywords
+- must begin with letter ansd have no specila characters, except underscore, no spaces
+- very flexible - content type can change and alter
+- created when values are assigned
+- the assignment operatoris = 
+- names should ideally be self-commenting
+
+shortcuts
+- shortcut rule
+- variable = variable op expression
+- can be replaced by
+- variable op= expression
+- e.g. var = var / 2 becomes var /= 2
+- e.g. var = var + 1 becomes var += 1
+
+reserved keywords
+- False, true, None
+- while, from, not, in, del, and
+- with, r, as, elif, global
+- if, else, pass, yield, break, assert
+- raise, return, try, class, def, continue
+- finally, exce, import, except, lambda
+
+
+functions
+- names should ideally be self-commenting
+- various built in functions
+- 
+
+questions and equality
+- == compares to see if true
+- == a binary operator with left-sided binding
+
+
+conditional instruction / conditional statement
+- if true_or_not:
+      do_this_if_true
+- 
+- 
+- 
 
 
 
