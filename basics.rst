@@ -50,9 +50,7 @@ rules / process / reminders
 - \ backslash as an escape character
 - positional - the meaning of an argument is determined by its position
 - keyword arguments - the meaning / selection of the argument is shown by the keyword
-- keyword arguments are always placed AFTER the last positional argument
-- 
-
+- keyword arguments are always placed AFTER the last positional argument 
 
 literals
 - data added as a constant or a variables = several types of "literals"
@@ -121,20 +119,24 @@ reserved keywords
 
 functions
 - names should ideally be self-commenting
-- various built in functions
-- 
+- various built in functions- 
 
 questions and equality
 - == compares to see if true
 - == a binary operator with left-sided binding
 
-
 conditional instruction / conditional statement
+for loops, while loops
+
 - if true_or_not:
-      do_this_if_true
-- 
-- 
-- 
+      do_this_if_true()
+- while i < number:
+     do_this()
+     modify i 
+ 
+
+break and continue statements
+
 
 
 
