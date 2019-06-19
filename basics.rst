@@ -31,9 +31,9 @@ ongoing evolution
 - python software foundation releases the main reference python versions (CPython, note, !=, c.f. Cython!)
 - these key releases are written in C. 
 - note benefit of C origin is portability, due to ubiquity of C
-- Cython - this automatically converts python code to C code, therefore it speeds up the analysis / calculations
-- jython - this acts as a link between java and python
-- pypy - is a fast, compliant implementation of python, its main advantage is speed. it is built with RPython (can be considered as a toolfor python developers, i.e. developers of python, than users)
+- Cython, this automatically converts python code to C code, therefore it speeds up the analysis / calculations
+- jython, this acts as a link between java and python
+- pypy, is a fast, compliant implementation of python, its main advantage is speed. it is built with RPython (can be considered as a toolfor python developers, i.e. developers of python, than users)
 
 terminology
 
