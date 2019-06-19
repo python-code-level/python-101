@@ -26,6 +26,7 @@ Python basics (background for exam prep)
 - most similar languages: perl, ruby
 
 ongoing evolution
+
 - python 3 is now current and is essentially a different, updated language compared to python3, although much in terms of use is similar
 - important to note there are many different flavours of python
 - python software foundation releases the main reference python versions (CPython, note, !=, c.f. Cython!)
@@ -52,6 +53,7 @@ rules / process / reminders
 - keyword arguments are always placed AFTER the last positional argument 
 
 literals
+
 - data added as a constant or a variables = several types of "literals"
 - you can literaly tell what it is by examining the data
 - literals are defined by the type of datsa they hold
@@ -67,6 +69,7 @@ literals
 - e.g. python choose scientific notation for long or complex numnbers, where relevant
 
 rules
+
 - recall that hierarchy of priorities applies
 - operation of higher priority are performed first and passed to lower priority operations
 - left sided binding normally applied where priorities are otherwise equal
@@ -90,6 +93,7 @@ rules
 
 
 variables
+
 - a container, where the contents can be varied
 - name and value
 - name must not clash with builtin researved keywords
@@ -100,6 +104,7 @@ variables
 - names should ideally be self-commenting
 
 shortcuts
+
 - shortcut rule
 - variable = variable op expression
 - can be replaced by
@@ -108,6 +113,7 @@ shortcuts
 - e.g. var = var + 1 becomes var += 1
 
 reserved keywords
+
 - False, true, None
 - while, from, not, in, del, and
 - with, r, as, elif, global
@@ -117,15 +123,16 @@ reserved keywords
 
 
 functions
+
 - names should ideally be self-commenting
 - various built in functions- 
 
 questions and equality
+
 - == compares to see if true
 - == a binary operator with left-sided binding
 
-conditional instruction / conditional statement
-for loops, while loops
+conditional instruction / conditional statement: for loops, while loops
 
 - if true_or_not:
       do_this_if_true()
@@ -135,6 +142,7 @@ for loops, while loops
  
 
 break and continue KEYWORDS
+
 - syntactic candy / syntactic suagar = can make a developer's work easier, but might not strictly be essential in a programming language
 - break = exists the loop by leaving the loop body of code. file code execution continues at the next command outside the loop
 - break is used once a point has been reached that no further use of the loop is needed. 
@@ -142,16 +150,19 @@ break and continue KEYWORDS
 - continue is used where the loop needs to be reset, and a part of the calculatino omitted or skipped, eg it moves tothe next iteration in the loop without acting on the current
 
 loop-else
+
 - not widely recommended to use
 - eg can be difficult to read, may be better to use alternatives, e.g. next(), filter()
 
 Review and add to notes
+
 - while loop, statements are executed when a conditional is met
 - for loop, moves over an iterable, can be combined with range
 - the flow and exit points of a loop are modified via break (stop) and continue (skip)
 - range(start, stop, step)
 
 logical operators
+
 - conjugation = connection of seperate conditions (and)
 - disjunction = compound action that depends on at least one operation / statement (or)
 - logical negation = 
