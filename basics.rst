@@ -25,7 +25,7 @@ Python basics (background for exam prep)
 - Several features of python make it popular:  considered easy to learn and use, favoured for teaching, free, understanable, 
 - most similar languages: perl, ruby
 
-- ongoing evolution
+ongoing evolution
 - python 3 is now current and is essentially a different, updated language compared to python3, although much in terms of use is similar
 - important to note there are many different flavours of python
 - python software foundation releases the main reference python versions (CPython, note, !=, c.f. Cython!)
@@ -41,8 +41,7 @@ terminology
 - erors have specific names, due to types
 - function = sectionof code that causes an effect, or undertakes evaluation, gives a result (python has many "built-in" functions, but also can be witten or imported
 - python function takes one, o rmany arguments function(argument1, argument2)
-- function invocation - 
-
+- function invocation 
 
 rules / process / reminders
 
@@ -135,8 +134,41 @@ for loops, while loops
      modify i 
  
 
-break and continue statements
+break and continue KEYWORDS
+- syntactic candy / syntactic suagar = can make a developer's work easier, but might not strictly be essential in a programming language
+- break = exists the loop by leaving the loop body of code. file code execution continues at the next command outside the loop
+- break is used once a point has been reached that no further use of the loop is needed. 
+- continue = 
+- continue is used where the loop needs to be reset, and a part of the calculatino omitted or skipped, eg it moves tothe next iteration in the loop without acting on the current
 
+loop-else
+- not widely recommended to use
+- eg can be difficult to read, may be better to use alternatives, e.g. next(), filter()
+
+Review and add to notes
+- while loop, statements are executed when a conditional is met
+- for loop, moves over an iterable, can be combined with range
+- the flow and exit points of a loop are modified via break (stop) and continue (skip)
+- range(start, stop, step)
+
+logical operators
+- conjugation = connection of seperate conditions (and)
+- disjunction = compound action that depends on at least one operation / statement (or)
+- logical negation = 
+
+De Morgan's law
+The negation of a conjunction is the disjunction of the negations
+not (p and q) == (not p or (not q)
+
+the negation of a disjunction is the conjunction of the negations
+not (p or q) == (not p) and (not q)
+
+logical vs bitwise operators
+
+bitwise operators
+
+& (ampersand) bitwise conjution
+| (bar) bitwise disjunction
 
 
 
