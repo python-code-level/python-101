@@ -82,14 +82,19 @@ rules
 - Addition.
 - Subtraction
 - note, any parts of expressions - in parenthese are calculated first
-- python ordering
-- high to low ...
+
+python ordering: operator priority (high to low)
+
 - +- unary
 - ** 
 - * / %
 - + - binary
+- <<   >> binary shift 
 - < <=>>> >=
 - ==  !=
+- &
+- |
+- = (many)
 
 
 variables
@@ -180,6 +185,75 @@ bitwise operators
 
 & (ampersand) bitwise conjution
 | (bar) bitwise disjunction
+~ (tilde) bitwise negation
+^ (caret) bitwise exclusivce or (xor)
+
+Arguments for bitwise operators must be integers, not floats (so may need to be converted)
+
+bitwise operators can be used to check the value at a specific point in a bit image
+such an example (grab a value, or change selected bits) = bit mask
+
+digraphs indicate "shift operators" 
+
+variable types
+
+- scalar variables (store one given value at a time)
+- multi-value variables 
+
+cards
+
+listnumbers = [1,4,8,16]
+
+- list is adata type, mutable, can be ordered
+- "elements" in a list are numbered, starting from 0
+- list is a collection of elements, where the elements are scalars
+- find elements via indexing, listnumers[1]
+- len(list) = number fo elements stored within the list
+- del(list[index]) removes element from list
+- list, access by index[2] and negative index[-3] -1=last in the list
+- common methods, list.append(0), list.insert(1,245)
+- lists can be iterated over element by for loops wiht "in"
+- name of a list refences the memory locatino where the list is stored, 
+- different list names can relate to the same memory location
+- slice , makes a copy of a whole list, or selected part of a list
+- list slice list[:] copies all,  or list[start:end]
+- list[0:end]  is same as list[:end]
+- list[start:] is same as list[start:len(list)]
+- del can delete slices from a list
+- "in" 
+- list comprehension 
+- [expression for element in list if conditional]
+- for element in list:
+      if conditional:
+          expression
+
+multidimensional arrays related to lists 
+
+functions and methods
+
+- functions relate to code as a whole
+- method is a type of function
+- method acts, and is invocated in specific ways
+- method changes the state of an entity
+- method is tightly linked / owned by the data on which it acts
+- the data "owns"the method
+- method chnages the internal state of data on which it is invoked
+
+resultoutput = function(argument1, argument2)
+resultoutput = data.method(argument1, argument2)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
