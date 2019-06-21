@@ -242,6 +242,30 @@ functions and methods
 resultoutput = function(argument1, argument2)
 resultoutput = data.method(argument1, argument2)
 
+cards done up to here
+start 
+
+functions
+- help to avoid repition of code by allowing re-use, encapsulation of code
+- functions add clarity to long sections of code analyssi, help improve readability and flow
+- the coding problem should be broken into small pieces, and each captured into a function
+- decomposition of a problems into seperate functions
+- make it much easier to test code gradually in small sections / isolated sections
+- aim is to divide code up into easy to access and understand functions 
+- functions aslo assist whne multiple developers are working on the same project
+- functions from python built-in, imported modules, local code
+- define a functino with def !
+- function is invoked, body of the function is executed, 
+- function must be available, accessible before it is invoked
+- functions should not have the same name as variables
+
+
+- shaowing
+- 
+
+
+
+
 
 
 
