@@ -1,5 +1,14 @@
 Python basics (background for exam prep)
 
+Summary review and reminders
+
+- scalar, a data type that has a single value
+- natural numbers and factorials
+- 
+- 
+
+Main topics
+
 - Commands, Instruction list (IL) = complete set of the known commands
 - similarities between natural languages and machine languages
 - contains: alphabet, dictionary/lexis, syntax rules (is it valid?), semantic rules (does it make sense?)
@@ -289,6 +298,8 @@ scope
 - any variable defined outside the function, is still accessible within the functiln, not vice versa
 - however if the variable outside the functino get replaced, by shadowing, by a variable inside the functino, then not the case
 - the global keyword can be used to change behaviour within a function to allow variables to be modified outside the function scope  
+- changes to a list identified by the functino parameter will be reflected beyond the scop eof the function
+- functions can see and use variables from the wider code body, unless a variable is being shadowed by an internal function var
 - 
 - 
 - 
