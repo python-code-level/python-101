@@ -4,7 +4,7 @@ Summary review and reminders
 
 - scalar, a data type that has a single value
 - natural numbers and factorials
-- 
+- recursion
 - 
 
 Main topics
@@ -300,8 +300,10 @@ scope
 - the global keyword can be used to change behaviour within a function to allow variables to be modified outside the function scope  
 - changes to a list identified by the functino parameter will be reflected beyond the scop eof the function
 - functions can see and use variables from the wider code body, unless a variable is being shadowed by an internal function var
-- 
-- 
+
+recusrion
+
+- w 
 - 
 
 
