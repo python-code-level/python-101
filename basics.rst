@@ -236,11 +236,11 @@ functions and methods
 - method acts, and is invocated in specific ways
 - method changes the state of an entity
 - method is tightly linked / owned by the data on which it acts
-- the data "owns"the method
+- the data "owns" the method
 - method chnages the internal state of data on which it is invoked
 
-resultoutput = function(argument1, argument2)
-resultoutput = data.method(argument1, argument2)
+resultoutput = function(param1, param2)
+resultoutput = data.method(param11, param2)
 
 cards done up to here
 start 
@@ -258,11 +258,40 @@ functions
 - function is invoked, body of the function is executed, 
 - function must be available, accessible before it is invoked
 - functions should not have the same name as variables
+- return keyword cause function to exit immediately
+- return can complete epty, or can return an expression/variable
+- return with expression cause the expression to be evaluated at the end of the function
+- functions can have both effects and results, wont always need to use both in further calcs
+- None is a keyword, but cant occur in expressions
+- None is used, when it is assigned to a variable, , or whne it is compared to a variable
+- when return is used without an expression, it returns None
 
+parameters vs arguments
+- parameter = specialised variable
+- parameter only exists within a function def(parameter)
+- the actual value of the parameter (because it can be different each time) is passed to the parameter when the method is invoked, and when, during invocation, an argument is passed to the method
+- "the result of the argument is the parameter value" 
+- "you can hear the argument outside, but only the paramters live inside (the function)"
+- shadowing, inside a function any parameter with the same name as a variable outside the function will shadow that variable, and be used in preference, but nothing outside the functino has been reset, outside the functino the other main parameter still takes preference 
+- how many parameters can be used before a method is too complex?
+- positional vs keyword argument passing (passed from argument outside to parameter inside)
+- a function can be set so that is certain arguments are not passed in, then default values are used,
+- so essentially predefined values for a parameter are set, as if the argument had been passed in
 
-- shaowing
+summary of function arguments (outside) to parameters (inside)
+- positional , depends on the order that arguments are supplied to the function
+- keyword - defined and triggered by their keyword
+- default , when no associated argument exists, a predefined parameter values is used
+
+scope
+- scope of a name, variable, is the part of the code where the name is properley recognizeable  
+- c.f. parameters, they are only accessible within a function, that is their scope
+- any variable defined outside the function, is still accessible within the functiln, not vice versa
+- however if the variable outside the functino get replaced, by shadowing, by a variable inside the functino, then not the case
+- the global keyword can be used to change behaviour within a function to allow variables to be modified outside the function scope  
 - 
-
+- 
+- 
 
 
 
