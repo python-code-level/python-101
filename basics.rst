@@ -303,8 +303,48 @@ scope
 
 recusrion
 
-- w 
+- a function invokes / calls itself, within its own definition
+- becomes a recursive function, 
+- recursion helps to write elegant, clean code that occur sin samller segments
+- danger, beware infinite loops, 
+- can use a lot of memory, check efficiency in a program
+- may need a termination condition, to avoid infinitie loops 
+ - 
+
+sequences, inc tuples
+- csn hold more than one value, or can be empty
+- can be iterated over each item
+- so sequences can be looper by for, while, in 
+- sequences can be mutable (changeable) or immutable
+- tuple is an immutable list
+- tuples = also accessed by index or for loops
+- important, tuples able to appear on the left side of operator, within assignment 
+- obvs a tuples elements can be variables
+
+
+mutability - readiness to be changed, 
+tuple cant be modified in situ, 
+
+card
+- alist[1,2,3] mutable
+- atuple(1,2,3,4)  immutable
+- btuple = 1,2,3,4,5 immutable
+- oneelementTuple = (1,)
+- thisDict = {"one" : 1, "two: 2, "three":3}
+
+dictionary is a data structure, not a sequence (dict are mutable)
+
+- keys are used to return values
+- dictionaries hold pairs of values
+- key-value pairs
+- keys can be strings, float, int, more? e.g. ...
+- len()  applies to dictionaries
+- from python 3.6x onwards dictionaries are ordered by default
+- like lists are index by their position, dictionary are index by their key
+- keys method. keys() allows easy access to keys
+- dictionaries are indexed "collections" of data
 - 
+
 
 
 
