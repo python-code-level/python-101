@@ -5,7 +5,7 @@ Summary review and reminders
 - scalar, a data type that has a single value
 - natural numbers and factorials
 - recursion
-- 
+- modifying list within functions, scope of impacts
 
 Main topics
 
