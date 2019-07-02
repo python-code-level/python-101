@@ -16,11 +16,17 @@ string revision
 - 
 - .index method = - gives the character index within the string, of the first char of the passed in argument
 - .count method = checks within a sequence (string, list) for nay occurences of test count argument, returns the number
-- many other string methods: capitalize, center, endswith, isalnum (alphanumeric), 
-- isalpha, islower, isspace, isupper, 
--  
--  
+- many other string methods: capitalize, center, endswith, isalnum (alphanumeric), title, 
+- isalpha, islower, isspace, isupper, join, lower, lstrip, split, trip (combines rstip, lstrip, swapcase,
+-  often both version that search from the left, or the right
+-  .rfind(), .rstrip()    etc
+- split method uses whitespaces to break up a string or tuple into seperate strings in a list
+- 
 
+sort and sorted
+
+- sort method on a list just sorts the main list object
+- sorted() functino created a new list object that holds the sorted results of the input list
 
 
 
