@@ -1,11 +1,12 @@
 Python basics (background for exam prep)
 
-Summary review and reminders
+Summary review and reminders (cards)
 
 - scalar, a data type that has a single value
 - natural numbers and factorials
 - recursion
 - modifying list within functions, scope of impacts
+- namespace  / scope
 
 Main topics
 
