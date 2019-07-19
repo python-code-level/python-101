@@ -1,3 +1,14 @@
+modules and names
+
+- module names are known from source, but only enter namespace at import
+- qualified.entity
+- import as , is alisaing
+- dir(module) returns list of all etities in a module, if whole module was imported
+- rem, at first import module is generated for additional semi-compliled ocde .pyc
+- errors and exceptions, try something first, check if went ok, deal with exceptions
+- multi branch excptions to giv ueful error code ouput
+
+
 string revision
 
 - immutable
@@ -27,6 +38,9 @@ sort and sorted
 
 - sort method on a list just sorts the main list object
 - sorted() functino created a new list object that holds the sorted results of the input list
+
+
+st = 5.1.4.11     netc
 
 
 
