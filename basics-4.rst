@@ -31,6 +31,38 @@ types
 
 5.1.7.1
 
+text and inputs
+
+* I18N = internationalisation
+* ascii defines character sets by numbers
+* code point is a number which makes a character
+* code page standard uses dif code points for certain national language characters
+* unicode assigns unambigious chars to many man y code points (avoids need for code pages)
+* useful standard is UTF-8 unicode transformatino format 
+* unicode / UTf-8 encoded chars can be used for variable names etc in python
+7 so python 3 is I18N ed
+
+5.1.8.1
+
+basic revision
+
+* strings, immutable sequences, so have length and cnabe indexed
+* multiline by three apostrophes or triple quotes
+* concatenated or replicated
+* can be sliced like lists or arrays
+* true or false results from using in and not in for strings and subsets
+* cant think exactly of string being like a list, as stringis immutable
+* no append, no insert, 
+* modifications to strings are always new copies, 
+* strings have an index method - gives the first occurence of the argument
+* count method, counts element occurences in the string sequence
+* other common methods ...   .endswith()  find() .replce() etc, etc, 
+
+5.1.10.3
+
+
+
+
 
 
 
