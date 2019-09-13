@@ -40,7 +40,10 @@ sort and sorted
 - sorted() functino created a new list object that holds the sorted results of the input list
 
 
-st = 5.1.4.11     netc
+cards for try / except blocks
+multipe except statements to handle dif exception types
+
+
 
 
 
