@@ -22,6 +22,14 @@ assert and assertion error
 * if assertion fails, ie is not true, then exceptino error is raised
 * can help to verify that data or code steps are exactly as expected ..
 * consider as a useful supplement to using exceptions ...
+* so varied use of assert through system code can give extra assurance, anbd help to raise meanginful error at set points
+
+types
+
+* common useful exceptions = ArithmeticError, AssertionErro, IndexError, LookupError, 
+* MemoryError, 
+
+5.1.7.1
 
 
 
