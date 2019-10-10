@@ -2,7 +2,7 @@ Python basics (background for exam prep)
 
 Summary review and reminders (cards)
 
-- scalar, a data type that has a single value
+- scalar, a data type that has a single value (so an integer of a float, not a data structure like an array)
 - natural numbers and factorials
 - recursion
 - modifying list within functions, scope of impacts
