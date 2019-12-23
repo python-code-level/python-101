@@ -46,24 +46,48 @@ start - 6
 - some properties can be locked to only internal use by the class, not externally accessible via n object...., this is encapsulation
 
 
-```class Stocks:
-    def __init__(self):
-        self.basePrice = 1.23
-        
- stockObject = Stocks()
- print(stockObject.basePrice)```
-
 class Stocks:
     def __init__(self):
         self.basePrice = 1.23
         
  stockObject = Stocks()
  print(stockObject.basePrice)
+>1.23
+
+class Stocks:
+    def __init__(self):
+        self.__basePrice = 1.23
+        
+ stockObject = Stocks()
+ print(stockObject.__basePrice)
+> AttributeError 
+
+- Here the basePrice class component is private, only accessible within the class, not via an object,
+- Using the .self means the method can access properties and methods of the object, 
+
+- superclass and subclass
+- in python it is necesssary to explicitly invoke the constructor of the superclass
 
 
+class Stocks:
+    def __init__(self):
+        self.__basePrice = 1.23
+        
+ stockObject = Stocks()
+
+class SubStocks:
+    def __init__(self):
+        Stocks.__init__(self)
+        self.__sum = 0
+        
+ stockObject = SubStocks()
 
 
-
+- instance variables are created by the constructorr and mean that different instances of a class may have different properties in thier isntance variables, depending on what processing has been done
+- it is also possible to create properties of an object (class instance, on the fly, completely outside the class code and therfore also seperate from other instances of the class. 
+-  
+- Start at:
+-  6.1.3.2
 
 
 
