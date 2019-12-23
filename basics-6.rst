@@ -33,8 +33,53 @@ start - 6
 
 
 - Design plan - start with general and broad classes, then become more specific
-- 
-- 
+- as soon as multiple instances may be required, then classes become useful... 
+
+- Protect / hide values against mis-use or access = encapsulation, 
+- __init__ is a constructor , invoked implicitly every time a new object is created from the class
+- constructor needs to know all about the objects struture and will create all aspects on initialisation,  
+- __init__ must have at least one parameter (self)
+- self represents the soon to be created virtual object, so is a placeholder for future objects
+- (using self is just a convention, but is best practice)
+- So, any properties can be added to self, and they will be associated with any objects created 
+- dot notation can access the property of the class object
+- some properties can be locked to only internal use by the class, not externally accessible via n object...., this is encapsulation
+
+
+```class Stocks:
+    def __init__(self):
+        self.basePrice = 1.23
+        
+ stockObject = Stocks()
+ print(stockObject.basePrice)```
+
+class Stocks:
+    def __init__(self):
+        self.basePrice = 1.23
+        
+ stockObject = Stocks()
+ print(stockObject.basePrice)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
