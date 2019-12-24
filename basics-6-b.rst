@@ -47,6 +47,59 @@ def __str__(self):
 - to a newer, more narrowly or specifically defined subclass
 - instead of starting with a blank slate, the new class already has a base of functionality on which to build
 - subclass inherits from superclass
+- always possible to check if two classes are related, by using issubclass function
+- important to note that a class is always considered to be a subclass of itself
+- can use isinstance() to check what type of class a particular object belongs to
+- however - important to note that this function will also return true when tested against any of an objects superclasses, 
+- 
+- obj1 is obj2 # tests if the two variables refer to the SAME object
+- variables just store a handle pointing towards the internal memory location
+- 
+- the is operator tests if the pointers refer to the same object, whilst the == operator checks if the two variables show value equality
+- the super() function accesses the superclass without the need to explixcirlt name it
+- super() function allows easy access to resource, attributes etc inside the superclass
+
+
+class Super: 
+    supVar = 1 # class level variable
+    def __init__(self):
+        self.altSupVar = 100
+    
+class Sub(Super):
+    subvar = 10 # class level variable
+    def __init__(self):
+    super().__init__()  # calls the init from super so altsupVar will also be accessible from Sub
+    self.altSubVar = 999
+    
+obj = Sub
+obj.subvar
+obj.supvar
+
+obj.altSupVar
+obj.altSubVar
+
+
+- it is clear that to access any property of an object, python searches both within the actual object, and also within all the classes to which the object belongs
+- 
+- start
+- 6.1.5.12
+
+
+
+
+
+
+
+
+
+
+
+
+
+- 
+- 
+
+
 
 
 
