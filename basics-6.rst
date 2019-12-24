@@ -88,6 +88,24 @@ class SubStocks:
 -  
 - Start at:
 -  6.1.3.2
+- in contrast to instance variables, which belong to an instance of the object, class variables just exist once and are stored in the class, so outside of any particular object
+- so, even if no actual objects exist, or have been instantiated, the class variables will still exist
+- using object.__dict__ can access instance variables of an object, but does not show the class variables
+- the class variable can be accessed via any instance object of the class, but they will all show the same value.
+- whenever a class variables is modified it is modified accross all instances of the class
+- class dictionrary is used to access all info at the class level  ExampleClass.__dict__
+- 
+- the hasattr function can be used to check if any class or object has a certain property
+
+
+if hasattr(egObject1, 'price'):
+    print(egObj1.price)
+
+if hasattr(egClass, 'cost'):
+    print(egClass.cost)
+
+- 
+
 
 
 
