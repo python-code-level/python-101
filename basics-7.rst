@@ -1,0 +1,18 @@
+- lambdas
+- use case = make code clear, easy to understand, simple
+- therefore if not achieving this, dont use lambdas
+- lambda params : expression
+- lambda clause returns value of the expression for current value of the lambda argument
+- lambdas use case = anonymous code used to evaluate a result
+-
+- map()  is a function that takes a function as its first argument and uses one or more iterators to return an iterator that delivers all function results
+- filter()  is a function, filters its second argument based on its first argument
+- lambdas are suitable for the first argument, eg swelecting boolean output used to filter the second argument
+-
+- closure = method of binding data to a function without passing them as parameters,  a function object that remembers values in scopes, even if they are not present in memory, 
+- 
+- nested functions, can access info from the enclosing scope, 
+- closures can be used instead of classes for simple code, but when more complex use classes instead,
+- all function objects have a __closure__  attribute that returns a tuple of all closures, so they can be examined ....
+
+- 6.1.8.1 files
