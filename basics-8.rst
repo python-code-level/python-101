@@ -1,0 +1,43 @@
+
+- canonical naming , eg unique absolute path to a file
+- canonical name = uniquely ids a file, regardless of its level in the directory tree
+- important to note the differences between linux/unix systems and windows 
+- \ in windows, / in linux
+- linux is case senstive, winodws ingonres case in filenames
+- python uses \ as an escape character
+- however if forward slashes are used in python, they will automatically be converted to backslahes, if needed, eg on windows systems, 
+- so best pracrtice is to use forward slashes
+- a python program interacts with files through "streams" or "handles"
+- kernel is the central part of the operating system,,,manages important aspects, eg cpu time, memory, etc, 
+- kernel - acts as intrmediate between the application / program, and underlying hardware, eg cpu, memory etc
+- kernel is the prgram that control sother programs
+- eg for multitasking etc, part controlled by going through kernel to access resources
+- file interactions are written for abstract entities because they will later operate on a range of real files
+- abstract operations on the stream and then enacted on the actual file
+- to bind or connect the abstract stream to the actual file, python uses open and close
+- sp python's interactino with a file stream always starts iwth open, ends with close and "handles" the stream in between
+- well written program wil always anticipate any potential problems at each stage of this chain, eg from opening the file
+- file streams have a "mode" , eg read or write, also update mode = allows both read and writes
+- terminology = current file position = read, write, update
+- python assumes every file it interact with is hidden behind a suitably adequate object
+- object is created whe the file is opened
+- objects derive from IOBase class, RawIOBase, BufferedIOBase, TextIOBase
+- these are created by open(), and objects are destroyed by close()
+- file streams are either text or binary streams
+- text streams occur in lines / rows of letters, digits, punctuation etc,
+- text streams, read / written line by line, chars by chars,  
+- binary stream contain bytes (unit of storage capable of holidng on ehcaracter, normally 8 bits)
+- binary stream is read / write in blocks of bytes
+- line endings can be an issue between windows and linux systems
+- non-portability issues can arise, eg due to line endings etc, 
+- when files are opened in text mode python automatically deasl with file endings to make it system portable
+- if open() is successful it returns a "stream object" 
+- open has optional mode and encoding, but these have defaults,
+- if opening in write mode, file does not have to exist, as will be created read to recieve data
+- for append mode, the virtual file recording head is set to end of any existing content, so new content is appended, 
+- suffix b indicates binary eg wb, rb, 
+- text mode is the default so does not have to be specified but being explicit can be useful
+- open with x mode gives exclusive creation access to the file - will fail / give error if the file already exists
+- x mode useful to avoid any issue with amending, overwriting or truncating existing files (use within try, except)
+- 
+ 
