@@ -256,6 +256,7 @@ cards done up to here
 start 
 
 functions
+
 - help to avoid repition of code by allowing re-use, encapsulation of code
 - functions add clarity to long sections of code analyssi, help improve readability and flow
 - the coding problem should be broken into small pieces, and each captured into a function
@@ -277,6 +278,7 @@ functions
 - when return is used without an expression, it returns None
 
 parameters vs arguments
+
 - parameter = specialised variable
 - parameter only exists within a function def(parameter)
 - the actual value of the parameter (because it can be different each time) is passed to the parameter when the method is invoked, and when, during invocation, an argument is passed to the method
@@ -289,11 +291,13 @@ parameters vs arguments
 - so essentially predefined values for a parameter are set, as if the argument had been passed in
 
 summary of function arguments (outside) to parameters (inside)
+
 - positional , depends on the order that arguments are supplied to the function
 - keyword - defined and triggered by their keyword
 - default , when no associated argument exists, a predefined parameter values is used
 
 scope
+
 - scope of a name, variable, is the part of the code where the name is properley recognizeable  
 - c.f. parameters, they are only accessible within a function, that is their scope
 - any variable defined outside the function, is still accessible within the functiln, not vice versa
@@ -313,6 +317,7 @@ recusrion
  - 
 
 sequences, inc tuples
+
 - csn hold more than one value, or can be empty
 - can be iterated over each item
 - so sequences can be looper by for, while, in 
@@ -327,6 +332,7 @@ mutability - readiness to be changed,
 tuple cant be modified in situ, 
 
 card
+
 - alist[1,2,3] mutable
 - atuple(1,2,3,4)  immutable
 - btuple = 1,2,3,4,5 immutable
