@@ -4,4 +4,6 @@ Progress cards
 - basics-2 = done
 - basics-3 = done
 - basics-4 = done
+- basics-6 = done
+- 
 
