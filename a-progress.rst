@@ -9,5 +9,6 @@ Progress cards
 - basics-6c = done
 - basics-7 = done
 - basics-9 = done
-- basicsw-10 = todo
+- basicsw-10 = done
 
+All Done
